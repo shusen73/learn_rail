@@ -2,8 +2,8 @@
 # check=error=true
 
 # This Dockerfile is designed for production, not development. Use with Kamal or build'n'run by hand:
-# docker build -t my_first_rails_app .
-# docker run -d -p 80:80 -e RAILS_MASTER_KEY=<value from config/master.key> --name my_first_rails_app my_first_rails_app
+# docker build -t learn_rail .
+# docker run -d -p 80:80 -e RAILS_MASTER_KEY=<value from config/master.key> --name learn_rail learn_rail
 
 # For a containerized dev environment, see Dev Containers: https://guides.rubyonrails.org/getting_started_with_devcontainer.html
 
